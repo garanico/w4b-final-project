@@ -1,21 +1,20 @@
 body{
   margin: 0;
-  transition: opacity 3s ease-out;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  background-color:aqua
 }
-
-body.fadeOut{
-  opacity: 0;
-}
-
 
 /* Intro Page Styling */
 
-#intro {
-  background-image: url("images/footprints-2.png");
+#intro{
+  background-image: url("images/footprints-best-png.png");
   background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 800px; 
+  background-size: 800px;
+  width= 500px;
   position: relative;
 }
 
@@ -24,8 +23,6 @@ body.fadeOut{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }
 
 #button{
@@ -41,7 +38,6 @@ body.fadeOut{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
   }
 
@@ -50,37 +46,37 @@ body.fadeOut{
   color: white;
 }
 
-/* Header Styling */
+/* Nav Bar Styling */
 
-.header{
+
+#nav{
   background-color: #900c3f;
+  color: #ffffff
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.clearfloat{
+  clear: both;
+}
+
+.logo-center{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 350px;
+  width: 50%;
 }
 
 #marauders-logo{
-  width: 199px;
+  /* width: 199px; */
   height: 243px;
   margin-right: auto;
   margin-left: auto;
-  display: block;
   padding-top: 10px;
   padding-bottom: 5px;
-
 }
 
-
-/* Nav Bar Styling */
-
-}
-#nav{
-    background-color: #900c3f;
-    color:#ffffff;
-    width: 7100%;
-    margin-right: auto;
-    margin-left:auto;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0; 
-}
 #nav a{
   float: left;
   text-decoration: none;
@@ -92,9 +88,34 @@ body.fadeOut{
 }
 
 #nav hover{
-  background-color: #c70039
-  font-weight: 10;
-  
-#about-1{
-  background-color: blue
+  background-color: #c70039;
 }
+
+/* Marauders Photo Styling */
+.pic-container{
+float: left;
+margin: 5px;
+width: 150px; 
+height: 150px;
+position: static;
+overflow: hidden;
+border-radius: 50%;
+}
+
+.pic{
+  display: inline-block;
+  vertical-align: middle;
+  /* height:100%; */
+  width: 100%;
+
+}
+
+ /* Content Styling */
+
+ #about-1{
+   margin-left: 25%;
+   font-style: italic;
+
+ }
+
+/* Footer Styling */
