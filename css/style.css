@@ -1,5 +1,5 @@
 body{
-  * {box-sizing: border-box;}
+  * box-sizing: border-box;
   margin: 0;
   margin-right: auto;
   margin-left: auto;
@@ -8,15 +8,24 @@ body{
   
 }
 
-/* Headline Styling */
+/* Font Styling */
 
 h1{
-  font-family:
-
+  font-family: 'Viaoda Libre', cursive;
 }
 
 h2{
+  font-family: 'Viaoda Libre', cursive;
   text-decoration: underline;
+}
+
+h3{
+  font-family: 'Bitter', serif;
+}
+
+p{
+  font-family: 'Abel', sans-serif;
+  font-size: 16;
 
 }
 /* Intro Page Styling */
