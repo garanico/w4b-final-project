@@ -1,11 +1,11 @@
 body{
   * box-sizing: border-box;
   margin: 0;
+  padding: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
-  background-color:aqua;
-  
+  width: 1250px;
+  background-color: #e2c8a9;
 }
 
 /* Font Styling */
@@ -25,18 +25,15 @@ h3{
 
 p{
   font-family: 'Abel', sans-serif;
-  font-size: 16;
+  font-size: 16px;
 
 }
 /* Intro Page Styling */
 
 #intro{
-  /* background-image: url("images/footprints-best-png.png"); */
+  background-image: url("images/footprints-best-png.png");
   background-color: #000000;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 800px;
-  width: 500px;
   position: relative;
 }
 
@@ -70,24 +67,28 @@ p{
 
 /* Header Styling */
 
-
+.parent{
+  background-color:#900c3f;
+}
 #marauders-logo{
-  /* width: 199px; */
-  /* height: 243px; */
-  /* margin-right: auto; */
-  /* margin-left: auto; */
+  /* width: 199px; */ 
+  /* height: 243px; */ 
+  /* margin-right: auto; */ 
+  /* margin-left: auto; */ 
+  background-color:#900c3f; 
   padding-top: 5px;
-  padding-bottom: 5px;
-  z-index: 2;
+  /* padding-bottom: 5px; */
+  /* z-index: 2; */
 }
 
 #footprints{
-  background-image: url("images/footprints-2.png") */ 
+  background-image: url("images/footprints-2.png");
   width: 20%;
   height: auto;
-  background-repeat: repeat round;
-  background-position: relative;
-  z-index: 1;
+  background-color: #900c3f;
+  background-repeat: repeat, round;
+  /* background-position: relative; */
+  /* z-index: 1; */
 
 }
 .logo-center{
@@ -159,25 +160,31 @@ border-radius: 50%;
  #about-1{
    margin-left: 25%;
    font-style: italic;
+   background-color: red;
  }
 
  #about-2{
+  float: left;
+  background-color: aqua
   
  }
 
  #youtube-widget{
    float:right;
+   padding-right: 100px;
  }
 
  #creation{
    float:left;
+   background-color: yellow;
  }
 
 /* Contact Form Styling */
 input[type=text], select, textarea {
   width: 100%;
+  color:#000000;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -186,8 +193,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #900c3f;
-  color: white;
+  background-color: #000;
+  color: #ffffff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -199,7 +206,8 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  color:#ffffff;
+  background-color: #900c3f;
   padding: 20px;
 }
 
