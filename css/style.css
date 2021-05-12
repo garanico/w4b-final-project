@@ -4,7 +4,7 @@ body{
   padding: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 1250px;
+  width: 1200px;
   background-color: #e2c8a9;
 }
 
@@ -30,8 +30,15 @@ p{
 figcaption{
   font-family: 'Abel', sans-serif;
   font-style: italic;
-
+  color: black;
+  text-align: center;
 }
+
+.clearfloat{
+  clear:both;
+}
+
+
 /* Intro Page Styling */
 
 #intro{
@@ -69,62 +76,16 @@ figcaption{
   color: white;
 }
 
-/* Header Styling */
-
-.parent{
-  background-color:#900c3f;
-}
-#marauders-logo{
-  /* width: 199px; */ 
-  /* height: 243px; */ 
-  /* margin-right: auto; */ 
-  /* margin-left: auto; */ 
-  background-color:#900c3f; 
-  padding-top: 5px;
-  /* padding-bottom: 5px; */
-  /* z-index: 2; */
-}
-
-#footprints{
-  background-image: url("images/footprints-2.png");
-  width: 20%;
-  height: auto;
-  background-color: #900c3f;
-  background-repeat: repeat, round;
-  /* background-position: relative; */
-  /* z-index: 1; */
-
-}
-.logo-center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.left:{
-  float: left;
-}
-
-.right{
-  float: right;
-}
-
-
-
 /* Nav Bar Styling */
-
 
 #nav{
   background-color: #900c3f;
-  color: #ffffff
+  /* margin: 0; */
+  color: #ffffff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  margin-top: 20px;
 }
 
-.clearfloat{
-  clear: both;
-}
 
 #nav a{
   text-decoration: none;
@@ -135,7 +96,7 @@ figcaption{
   color:#ffffff
 }
 
-#nav:hover{
+#nav a:hover{
   background-color: #c70039;
 }
 
@@ -143,20 +104,20 @@ figcaption{
 .pic-container{
 float: left;
 margin-left: 120px;
-width: 150px; 
-height: 150px;
 position: static;
 overflow: hidden;
-border-radius: 50%;
+}
+
+.pic-container img{
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
 }
 
 .pic{
   display: inline-block;
   vertical-align: middle;
-  /* height:100%; */
   width: 100%;
-  margin: 
-
 }
 
  /* Content Styling */
@@ -165,29 +126,24 @@ border-radius: 50%;
    width: 300px;
    margin-left: 25%;
    font-style: italic;
-   background-color: aqua;
  }
 
  #about-2{
    width: 640px;
   float: left;
-  /* background-color: aqua */
-  
  }
 
  #youtube-widget{
    float:right;
    margin-top: 20px;
-   padding-right: 100px;
  }
 
  #creation{
    float:left;
-   /* background-color: yellow; */
  }
 
- #Usage{
-   background-color: purple;
+ #usage{
+  
  }
 
 /* Contact Form Styling */
@@ -247,7 +203,7 @@ input[type=submit]:hover {
   font-size: 14px;
   /* line-height: 17px; */
   padding: 20px 0px 5px 0px;
-  color: #ffffff
+  color: #ffffff;
   font-weight: normal;
   text-transform: uppercase;
   /* letter-spacing: 0.250em; */
@@ -274,7 +230,7 @@ input[type=submit]:hover {
 }
 
 .footer .col ul li:hover {
-  color:#ffffff
+  color:#ffffff;
   font-weight: bold;
   /* transition: .1s; */
   /* -webkit-transition: .1s; */
