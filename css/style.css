@@ -1,5 +1,5 @@
 body{
-  * box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   margin-right: auto;
@@ -26,6 +26,10 @@ h3{
 p{
   font-family: 'Abel', sans-serif;
   font-size: 16px;
+}
+figcaption{
+  font-family: 'Abel', sans-serif;
+  font-style: italic;
 
 }
 /* Intro Page Styling */
@@ -123,9 +127,8 @@ p{
 }
 
 #nav a{
-  float: left;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 10px;
   text-align: center;
   background-color:#900c3f;
@@ -139,7 +142,7 @@ p{
 /* Marauders Photo Styling */
 .pic-container{
 float: left;
-margin: 5px;
+margin-left: 120px;
 width: 150px; 
 height: 150px;
 position: static;
@@ -152,31 +155,39 @@ border-radius: 50%;
   vertical-align: middle;
   /* height:100%; */
   width: 100%;
+  margin: 
 
 }
 
  /* Content Styling */
 
  #about-1{
+   width: 300px;
    margin-left: 25%;
    font-style: italic;
-   background-color: red;
+   background-color: aqua;
  }
 
  #about-2{
+   width: 640px;
   float: left;
-  background-color: aqua
+  /* background-color: aqua */
   
  }
 
  #youtube-widget{
    float:right;
+   margin-top: 20px;
    padding-right: 100px;
  }
 
  #creation{
    float:left;
-   background-color: yellow;
+   /* background-color: yellow; */
+ }
+
+ #Usage{
+   background-color: purple;
  }
 
 /* Contact Form Styling */
