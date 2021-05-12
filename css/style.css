@@ -20,7 +20,7 @@ h2{
 }
 
 h3{
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter', serif; 
 }
 a{
   font-family: "Abel", sans-serif;
@@ -41,11 +41,11 @@ figcaption{
 }
 
 .clearfloat{
-  clear:both;
+  clear: both;
 }
 
 
-/* Intro Page Styling */
+/* Index Page Styling */
 
 #intro{
   background-image: url("images/footprints-best-png.png");
@@ -85,7 +85,7 @@ figcaption{
 /* Header Styling */
 
 .header{
-  display: block;
+
 }
 
 /* Nav Bar Styling */
@@ -93,9 +93,8 @@ figcaption{
 #nav{
   background-color: #900c3f;
   margin: 0; 
-  top: 0;
   color: #ffffff;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; /* for Safari */
   position: sticky; 
 }
 
